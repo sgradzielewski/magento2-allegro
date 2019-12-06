@@ -38,7 +38,7 @@ Import zamówień powinien zostać włączony, dopiero gdy wszystkie produkty s�
 ## Połączenie z kontem Allegro
 Aby połączyć sklep Magento z aplikacją Allegro należy wykonać następujące kroki:
 1. Zalogować się na koncie Allegro i przejść na adres https://apps.developer.allegro.pl lub https://apps.developer.allegro.pl.allegrosandbox.pl dla konta sandboxowego, aby zarejestrować nową aplikację.
-2. Wprowadzić nazwę aplikacji i adres URI do przekierowania - powinien on być w formacie {backend_url}/index.php/admin/allegro/system/authenticate/ - np. 'http://example.com/index.php/admin/allegro/system/authenticate/'.
+2. Wprowadzić nazwę aplikacji i adresu URI do przekierowania - powinien on być w formatach http://{backend_url}/index.php/admin/allegro/system/authenticate/ oraz https://{backend_url}/index.php/admin/allegro/system/authenticate/ - np. 'http://example.com/index.php/admin/allegro/system/authenticate/' oraz 'https://example.com/index.php/admin/allegro/system/authenticate/'.
 ![application_registration](README/applicationRegistration.png)
 3. Zalogować się w panelu admina w Magento i przejść do sekcji Sklepy -> Konfiguracja -> Allegro -> Konfiguracja
 ![connection_configuration](README/allegroConnectionConfiguration.png)
